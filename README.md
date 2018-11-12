@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed7.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed7.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed7.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed8.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -35,7 +35,7 @@ Como metodología de trabajo durante el curso, los alumnos desarrollarán como p
 Sobre el Curso
 =================
 * Horario: Martes y jueves de 19:00 a 22:00
-* Fechas: 11/09/2018 - 04/10/2018
+* Fechas: 13/11/2018 - 11/12/2018
 
 Teoría y Recursos
 =================

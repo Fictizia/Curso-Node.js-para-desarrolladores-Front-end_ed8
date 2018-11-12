@@ -2,7 +2,7 @@
 
 ### Normas y demás
 - Puntualidad
-- Liquidos y comida
+- Líquidos y comida
 - Ubicación
 - Cafeteria, cajeros, farmacias, etc...
 
@@ -12,7 +12,6 @@
 - Comunicación fuera de clase
 - Repositorio común
 - Teoría, prácticas y recursos
-
 
 ### Sobre el profesor
 
@@ -982,7 +981,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 
 ### Resumen
-![Trabajar con Git/Github](../assets/git-working-flow-2.png)
+![Trabajar con Git/Github](../assets/git-workflow-2.png)
 [tamaño original](http://www.geekgumbo.com/wp-content/uploads/2011/08/nvie-git-workflow-commands.png)
 
 
@@ -1327,35 +1326,33 @@ for (let n of fibonacci(1000)) {
 
 **2 -** [Arregla todos los errores de eslint](https://eslint.org/demo/#eyJ0ZXh0IjoiLy8gQXJyYXkubWFwIHBvbHlmaWxsXG5pZiAoQXJyYXkucHJvdG90eXBlLm1hcCA9PT0gdW5kZWZpbmVkKSB7XG5cblxuICBBcnJheS5wcm90b3R5cGUubWFwID0gZnVuY3Rpb24oZm4pIHtcblx0dmFyIHJ2ID0gW10sIGk9MFxuICAgIGZvcih2YXIgaT0wLCBsPXRoaXMubGVuZ3RoOyBpPGw7IGkrKylcbiAgICAgIHJ2LnB1c2goZm4odGhpc1tpXSkpO1xuICAgIHJldHVybiAgcnZcbiAgfTtcbn0iLCJvcHRpb25zIjp7InBhcnNlck9wdGlvbnMiOnsiZWNtYVZlcnNpb24iOjYsInNvdXJjZVR5cGUiOiJzY3JpcHQiLCJlY21hRmVhdHVyZXMiOnt9fSwicnVsZXMiOnsiY29uc3RydWN0b3Itc3VwZXIiOjIsIm5vLWNhc2UtZGVjbGFyYXRpb25zIjoyLCJuby1jbGFzcy1hc3NpZ24iOjIsIm5vLWNvbXBhcmUtbmVnLXplcm8iOjIsIm5vLWNvbmQtYXNzaWduIjoyLCJuby1jb25zb2xlIjoyLCJuby1jb25zdC1hc3NpZ24iOjIsIm5vLWNvbnN0YW50LWNvbmRpdGlvbiI6Miwibm8tY29udHJvbC1yZWdleCI6Miwibm8tZGVidWdnZXIiOjIsIm5vLWRlbGV0ZS12YXIiOjIsIm5vLWR1cGUtYXJncyI6Miwibm8tZHVwZS1jbGFzcy1tZW1iZXJzIjoyLCJuby1kdXBlLWtleXMiOjIsIm5vLWR1cGxpY2F0ZS1jYXNlIjoyLCJuby1lbXB0eS1jaGFyYWN0ZXItY2xhc3MiOjIsIm5vLWVtcHR5LXBhdHRlcm4iOjIsIm5vLWVtcHR5IjoyLCJuby1leC1hc3NpZ24iOjIsIm5vLWV4dHJhLWJvb2xlYW4tY2FzdCI6Miwibm8tZmFsbHRocm91Z2giOjIsIm5vLWZ1bmMtYXNzaWduIjoyLCJuby1nbG9iYWwtYXNzaWduIjoyLCJuby1pbm5lci1kZWNsYXJhdGlvbnMiOjIsIm5vLWludmFsaWQtcmVnZXhwIjoyLCJuby1pcnJlZ3VsYXItd2hpdGVzcGFjZSI6Miwibm8tbmV3LXN5bWJvbCI6Miwibm8tb2JqLWNhbGxzIjoyLCJuby1vY3RhbCI6Miwibm8tcmVkZWNsYXJlIjoyLCJuby1yZWdleC1zcGFjZXMiOjIsIm5vLXNlbGYtYXNzaWduIjoyLCJuby1zcGFyc2UtYXJyYXlzIjoyLCJuby10aGlzLWJlZm9yZS1zdXBlciI6Miwibm8tdW5leHBlY3RlZC1tdWx0aWxpbmUiOjIsIm5vLXVucmVhY2hhYmxlIjoyLCJuby11bnNhZmUtZmluYWxseSI6Miwibm8tdW5zYWZlLW5lZ2F0aW9uIjoyLCJuby11bnVzZWQtbGFiZWxzIjoyLCJuby11bnVzZWQtdmFycyI6Miwibm8tdXNlbGVzcy1lc2NhcGUiOjIsInJlcXVpcmUteWllbGQiOjIsInVzZS1pc25hbiI6MiwidmFsaWQtdHlwZW9mIjoyLCJuby12YXIiOjIsImNvbW1hLWRhbmdsZSI6Miwibm8tZXh0cmEtc2VtaSI6Miwic2VtaSI6Miwibm8tbWl4ZWQtc3BhY2VzLWFuZC10YWJzIjoyLCJuby1tdWx0aS1zcGFjZXMiOjIsIm5vLW11bHRpcGxlLWVtcHR5LWxpbmVzIjoyLCJvbmUtdmFyLWRlY2xhcmF0aW9uLXBlci1saW5lIjoyLCJuZXdsaW5lLWFmdGVyLXZhciI6MiwibmV3bGluZS1iZWZvcmUtcmV0dXJuIjoyLCJzcGFjZS1pbi1wYXJlbnMiOjIsInNwYWNlLWJlZm9yZS1ibG9ja3MiOjIsInNwYWNlLWJlZm9yZS1mdW5jdGlvbi1wYXJlbiI6Miwic3BhY2UtaW5maXgtb3BzIjoyfSwiZW52Ijp7InBoYW50b21qcyI6ZmFsc2UsIm5hc2hvcm4iOmZhbHNlfX19 ) ([Solución](https://gist.github.com/josex2r/dd2e6156d9047fa1e5a4973ddc2cd4ee))
 
-**3 -** Entra en Cloud9 y prepara el IDE para realizar los siguientes ejercicios.
-
-**4 -** Sube tu código a GitHub:
+**3 -** Sube tu código a GitHub:
 - Haz un `fork` del repositorio.
 - Crea una nueva rama y cámbiate a ella.
 - Crea una carpeta con tu nombre.
 - Crea un archivo *README.md* y escribe lo que quieras usando [Markdown](https://guides.github.com/features/mastering-markdown/).
 - Sube los cambios al repositorio y abre una pull-request a la rama `master` del repositorio original.
 
-**5 -** Resolver conflictos:
+**4 -** Resolver conflictos:
 - Modifica el fichero `README.md` y cambia el título por la frase que quieras:
 
   ```
   # Node.js para desarrolladores Front-end
   ```
-  
+ 
   - Comitea los cambios
   - Crea una rama nueva
   - Modifica el título con otro texto diferente
   - Trae los cambios de la rama `master` a la nueva que has creado
   - Resuelve los conflictos y sube la rama a **Github**
 
-**6 -** Crea un [Gist](https://gist.github.com/) con:
+**5 -** Crea un [Gist](https://gist.github.com/) con:
   - Un fichero `index.html` con el esqueleto de una web.
   - Un fichero `README.md` con cualquier contenido.
 
-**7 -** Abre una issue en el repositorio escribiendo una pequeña presención sobre ti.
+**6 -** Abre una issue en el repositorio escribiendo una pequeña presención sobre ti.
 
-**8 -** Prueba a realizar algunas [katas en Code Wars](https://www.codewars.com):
+**7 -** Prueba a realizar algunas [katas en Code Wars](https://www.codewars.com):
   - [Cat years, Dog years](https://www.codewars.com/kata/cat-years-dog-years)
   - [Find the bug!](https://www.codewars.com/kata/multiply/)
   - [Even or odd?](https://www.codewars.com/kata/even-or-odd)
