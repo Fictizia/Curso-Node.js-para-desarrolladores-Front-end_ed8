@@ -491,22 +491,25 @@ console.log("Hello World!");
   ```javascript
   const http = require('http');
 
-  function writeResponse(response) {
+  function writeResponse(response, i) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
     response.write('Hola Mundo!');
     response.end();
-    console.log('Se termino... ');
+    console.log(`Se termino ${i}...`);
   }
-  
-  function sleepAsynch(seconds, response) {
+
+  function sleepAsynch(seconds, i, response) {
     setTimeout(function() {
-      writeResponse(response);
+      writeResponse(response, i);
     }, 3000);
   }
-  
+
+  let index = 1;
+
   http.createServer((request, response) => {
-    console.log('Empezo... ');
-    sleepAsynch(10, response);
+    const i = index++;
+    console.log(`Empezo ${i}...`);
+    sleepAsynch(10, i, response);
   }).listen(8080);
   ```
 
