@@ -378,7 +378,7 @@ console.log("Hello World!");
   console.log('Host: ' + parsedUrl.hostname);
   console.log('Puerto: ' + parsedUrl.port);
   console.log('Ruta: ' + parsedUrl.pathname);
-  console.log('Parásmetros: ' + parsedUrl.query);
+  console.log('Parámetros: ' + parsedUrl.query);
   console.log('Hash: ' + parsedUrl.hash);
   ```
   
