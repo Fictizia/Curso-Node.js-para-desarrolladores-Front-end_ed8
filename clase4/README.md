@@ -68,7 +68,7 @@ var myWebSocket = new WebSocket("ws://www.websockets.org");
 
 **Gestión de Eventos**
 
-- Siempre dispondremos del parametro event.
+- Siempre dispondremos del parámetro event.
 
   ```javascript
   myWebSocket.onopen = function() { console.log("Connection open ..."); };
@@ -76,7 +76,7 @@ var myWebSocket = new WebSocket("ws://www.websockets.org");
   myWebSocket.onclose = function() { console.log("Connection closed."); };      
   ```
 
-**Envio de mensajoes**
+**Envio de mensajes**
 
 ```javascript
 myWebSocket.send("Hello WebSockets!");
@@ -118,10 +118,14 @@ socket.on('my-event', (data) => {
 ```
 
 - **Eventos reservados**:
-  - `connect`
+  - `connect/connection`
 
     ```javascript
     socket.on('connect', (socket) => {
+      // ...
+    });
+    
+    socket.on('connection', (socket) => {
       // ...
     });
     ```
