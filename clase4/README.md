@@ -307,7 +307,7 @@ io.use((socket, next) => {
 - Universal, mediante `npm`
 
   ```
-  npm install -g heroku-cli
+  npm install -g heroku
   ```
   
 - Linux
