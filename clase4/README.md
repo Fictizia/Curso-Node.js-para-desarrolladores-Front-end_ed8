@@ -124,10 +124,6 @@ socket.on('my-event', (data) => {
     socket.on('connect', (socket) => {
       // ...
     });
-    
-    socket.on('connection', (socket) => {
-      // ...
-    });
     ```
 
   - `disconnect`
@@ -196,10 +192,14 @@ server.listen(8080);
 ```
 
 **Eventos reservados**:
-- `connect`
+- `connect/connection`
 
   ```javascript
   io.on('connect', (socket) => {
+    // ...
+  });
+    
+  socket.on('connection', (socket) => {
     // ...
   });
   ```
