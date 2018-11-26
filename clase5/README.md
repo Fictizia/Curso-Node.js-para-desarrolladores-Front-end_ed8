@@ -174,6 +174,9 @@ firebase.auth().signInWithPopup(provider).then((result) => {
 
 4. [Ejemplo](https://firebase.google.com/docs/auth/admin/manage-sessions)
 
+- [Utilizando cookies de sesión en Firebase](https://firebase.google.com/docs/auth/admin/manage-cookies?hl=es-419)
+- [Gestionando la sesión del usuario](https://firebase.google.com/docs/auth/admin/manage-sessions?hl=es-419)
+
 **Detectar cambios de usuario**
 
 ```javascript
@@ -278,7 +281,9 @@ storageRef.child('images/stars.jpg').getDownloadURL().then((url) => {
 
 [Todas las funcionalidades](https://firebase.google.com/docs/database/web/start)
 
-**[Configurando las reglas de lectura/escritura](https://firebase.google.com/docs/database/security/quickstart#sample-rules)**
+- **[Configurando las reglas de lectura/escritura](https://firebase.google.com/docs/database/security/quickstart#sample-rules)**
+- [Cheatsheet reglas de base de datos](https://gist.github.com/codediodeio/6dbce1305b9556c2136492522e2100f6)
+- [Expresiones regulares](https://firebase.google.com/docs/reference/security/database/regex)
 
 **¿Cómo se estructuran los datos?**
 
