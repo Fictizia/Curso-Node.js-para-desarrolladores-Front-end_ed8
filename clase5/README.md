@@ -30,7 +30,7 @@
 
 ### Creación de una cuenta
 
-1. Darse de alta en la [we de Firebase](https://www.firebase.com/signup/) mediante la cuenta de Google.
+1. Darse de alta en la [web de Firebase](https://www.firebase.com/signup/) mediante la cuenta de Google.
 2. Crear un proyecto de Firebase en la [consola de administración](https://console.firebase.google.com).
 3. Crear o asociar un proyecto de Google.
 4. Crear un proyecto de Firebase.
@@ -191,7 +191,8 @@ firebase.auth().onAuthStateChanged((user) => {
 
 ![storage](../assets/firebase-cloud-storage.jpeg)
 
-[Todas las funcionalidades](https://firebase.google.com/docs/storage/web/start)
+- [Todas las funcionalidades](https://firebase.google.com/docs/storage/web/start)
+- [Permitiendo CORS](https://firebase.google.com/docs/storage/web/download-files)
 
 **Subir ficheros**
 
@@ -307,7 +308,7 @@ La base de datos es un simple JSON
 ```javascript
 var userRef = firebase.database().ref(`users/${userId}`);
 
-// LEscuchar cambios en `users/${userId}`
+// Escuchar cambios en `users/${userId}`
 userRef.on('value', (snapshot) => {
   console.log(snapshot.val());
 });
@@ -422,10 +423,10 @@ ref.limitToFirst(10);
 // Limita el número de elementos de la lista desde el final hasta la cantidad de elementos indicada
 ref.limitToLast(5);
 
-// Elementos a partir del índice
+// 	Muestra elementos con un valor igual o superior a la clave o el valor que se especifica según el método de ordenamiento seleccionado.
 ref.startAt(70);
 
-// Elementos desde el índice (hacia atrás)
+// 	Muestra elementos con un valor inferior o igual a la clave o el valor que se especifica según el método de ordenamiento seleccionado.
 ref.endAt();
 
 // Elementos iguales al valor indicado
