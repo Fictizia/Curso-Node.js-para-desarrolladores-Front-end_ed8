@@ -2,7 +2,7 @@
 
 ### Streams
 
-Los streams son collecciones/flujos de datos — algo parecido a los `Arrays` o los `Strings`.
+Los streams son colecciones/flujos de datos — algo parecido a los `Arrays` o los `Strings`.
 La diferencia es que los datos del stream pueden no estar siempre disponibles, y pueden "contener" más datos que el límite de la memoria.
 
 Una de las propiedades más importantes es el **encadenamiento**, podemos modificar los datos iniciales como si fuésemos encadenando comando de bash:
@@ -155,7 +155,8 @@ inStream.pipe(outStream);
     
   gulp.task('concat-ugly', () => {
     console.log('Estas en la tarea de concatenación!')  
-    gulp.src('js/sources/*.js')
+    
+    return gulp.src('js/sources/*.js')
       .pipe(concat('app.min.js'))
       .pipe(uglify())
       .pipe(gulp.dest('dist/js'))
