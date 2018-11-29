@@ -324,8 +324,32 @@ Gulp:
 
 ![Gulp_WF](../assets/gulp-file-manipulation.png)
 
+### Debugging
+
+#### Node inspector
+
+Para ejecutar el inspector y arrancar el script utilizaremos:
+
+```
+node --inspect index.js
+```
+
+Si queremos añadir un punto de ruptura antes de ejecutar el código utilizaremos:
+
+```
+node --inspect-brk index.js
+```
+
+#### [ndb](https://www.npmjs.com/package/ndb)
+
+![ndb](https://d33wubrfki0l68.cloudfront.net/41dc1da28494e86b499df4aec24029c40e992666/a9101/images/posts/2018-08-26-debugging-nodejs-application-in-chrome-devtools-using-ndb/debugging-nodejs-using-ndb.example.gif)
+
 ### Ejercicios
 
 **1 -** Partiendo del repositorio [gulp-example-spa#template](https://github.com/josex2r/gulp-example-spa/tree/template) completar el fichero `gulpfile.js` para construir la **Single Page Application**:
 
 - **[Solución](https://github.com/josex2r/gulp-example-spa)**
+
+**2 -** Partiendo del repositorio [debug-exercises#template](https://github.com/josex2r/debug-exercises/tree/template) arregla los errores de los ejercicios utilizando herramientas de debugging:
+
+- **[Solución](https://github.com/josex2r/debug-exercises)**
