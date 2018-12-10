@@ -233,6 +233,23 @@ Para añadirlos únicamente es necesario instalarlos localmente ejecutando `npm 
 
 > Recuerda que si utilizas **redis** tienes que habilitarlo en Heroku (`heroku addons:create rediscloud`).
 
+### Dialogflow
+
+> DialogFlow es la herramienta de creación de interfaces conversacionales capaz de entender el lenguaje natural de Google.
+
+![dialogflow](https://www.wabion.com/wp-content/uploads/2017/11/dialogflow-600x209.png.pagespeed.ce.O6MTyIWmrm.png)
+
+- **Intent**: Es una forma de crear comportamientos a partir de una o varias sentencias de entrada.
+  Los **intent** permiten definir parámetros para poder extraer información de la sentencia.
+  - **Context**: Permiten relacionar diferender **intents** y propagar los parámetros de uno a otro.
+  - **Events**: Se utiliza para lanzar otros **intents**.
+  - **Training phrases**: Permite definir sentencias de prueba para entrenar al bot.
+  - **Responses**: Respuesta/s con las que debe responder nuestro bot.
+
+- **Entities**: Son los tipos de datos que permiten diferenciar los parámetros de una sentencia.
+  - Del sistema, predefinidos en la herramienta (ej. `fecha`, `hora`, ...)
+  - Personalizados, se crean utilizando palabras y sinónimos (por ejemplo `colores`, `medios de transporte`, ...)
+
 ### Ejercicios
 
 [**Solución**](https://github.com/josex2r/hubot-example)
